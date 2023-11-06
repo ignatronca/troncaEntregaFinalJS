@@ -1,26 +1,26 @@
-
+// Productos de cuidado del cabello
 const productos = [
-    {id: 1, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 2, nombre: "Coloración Evolution 6nb Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 3, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 4, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 5, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 6, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 7, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 8, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura"},
-    {id: 9, nombre: "Serum Anti-Edad Pro Reti-C Idraet x 30g", descripcion: "SERUM PRO RETI-C TRATAMIENTO ANTIAGE INTEGRAL Hidrata dejando la piel suave e iluminada", imagen: "https://bertoldi.com.ar/cdn/shop/products/Idraet-CUIDADODELAPIEL-COSMETOLOGIAYMASAJES-IDRAETPRORETI-CSERUMANTI-EDAD30g-13905-BERTOLDI-368305_1800x1800.png?v=1607701995", precio: 7540, categoria: "face"},
-    {id: 10, nombre: "Máscara Absolut Repair x 250 ml.", descripcion: "La máscara Absolut Repair ofrece la última experiencia de la reparación profunda profesional para el cabello dañado y seco. Los resultados se demuestran: recupera visiblemente el cabello dañado que resulta en 77% * menos daños en la superficie de la fibra.", imagen: "https://bertoldi.com.ar/cdn/shop/products/cellstemchico_1800x1800.png?v=1616436255", precio: 29000, categoria: "cabello"}
+    { id: 1, nombre: "Coloración Evolution 2 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 2, nombre: "Coloración Evolution 6nb Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 3, nombre: "Coloración Evolution 3 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 4, nombre: "Coloración Evolution 4 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 5, nombre: "Coloración Evolution 5 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 6, nombre: "Coloración Evolution 6 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 7, nombre: "Coloración Evolution 7 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 8, nombre: "Coloración Evolution 8 Bruno Alfaparf x 60 ml", descripcion: "Fórmula enriquecida con Ácido Hialurónico, 100% cobertura de las canas, Duración inigualable", imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_of_the_color_Platinum_Ash_Platinum_PF011230_Alfaparf_Milano_01_187a44b0-b7e2-4312-b34a-8597e64aeb42_1800x1800.png?v=1695475677", precio: 3880, categoria: "tintura" },
+    { id: 9, nombre: "Serum Anti-Edad Pro Reti-C Idraet x 30g", descripcion: "SERUM PRO RETI-C TRATAMIENTO ANTIAGE INTEGRAL Hidrata dejando la piel suave e iluminada", imagen: "https://bertoldi.com.ar/cdn/shop/products/Idraet-CUIDADODELAPIEL-COSMETOLOGIAYMASAJES-IDRAETPRORETI-CSERUMANTI-EDAD30g-13905-BERTOLDI-368305_1800x1800.png?v=1607701995", precio: 7540, categoria: "face" },
+    { id: 10, nombre: "Máscara Absolut Repair x 250 ml.", descripcion: "La máscara Absolut Repair ofrece la última experiencia de la reparación profunda profesional para el cabello dañado y seco. Los resultados se demuestran: recupera visiblemente el cabello dañado que resulta en 77% menos daños en la superficie de la fibra.", imagen: "https://bertoldi.com.ar/cdn/shop/products/cellstemchico_1800x1800.png?v=1616436255", precio: 29000, categoria: "cabello" },
 ];
 
-
+/// Función para agregar un producto al carrito
 const agregarProductoAlCarrito = (producto) => {
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     carrito.push(producto);
-    localStorage.setItem("carrito",JSON.stringify(carrito));
+    localStorage.setItem("carrito", JSON.stringify(carrito));
     console.log(carrito);
 };
 
-
+// Función para renderizar los productos en la página
 const renderProductos = () => {
     const contenidoElement = document.getElementById("contenido");
 
@@ -41,7 +41,7 @@ const renderProductos = () => {
         contenidoElement.innerHTML += productoHTML;
     });
 
-   
+    // Evento para agregar un producto al carrito cuando se hace clic en el botón   
     const botonesAgregar = document.querySelectorAll(".agregar-al-carrito");
     botonesAgregar.forEach((boton) => {
         boton.addEventListener("click", (event) => {
@@ -55,7 +55,7 @@ const renderProductos = () => {
     });
 };
 
-
+// Función para actualizar el número de productos en el carrito
 const actualizarCarrito = () => {
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     const numeroProductos = carrito.length;
@@ -66,6 +66,18 @@ const actualizarCarrito = () => {
     badgeCarrito.textContent = numeroProductos.toString();
 };
 
-renderProductos();
+// Agregar un nuevo producto a la lista
+const nuevoProducto = {
+    id: 11,
+    nombre: "Coloración Evolution 10",
+    descripcion: "Tintura",
+    imagen: "https://bertoldi.com.ar/cdn/shop/files/Evolution_o…1_Alfaparf_Milano_ciocca_02_280x.png?v=1695478310",
+    precio: 3150,
+    categoria: "tintura"
+};
 
+productos.push(nuevoProducto);
+
+// Llamada a las funciones para inicializar la página
+renderProductos();
 actualizarCarrito();
